@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Myeongjo&family=Song+Myung&display=swap');
+body {
+  text-align:center;
+  padding: 10px;
+  margin-bottom:30px;
+  width:515px;
+  height:390px;
+  border: 5px solid pink;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+img {
+  width:30%;
+}
+.text {
+  font-size:40px;
+  font-style:italic;
+  font-family: 'Do Hyeon', sans-serif;
+}
+.text1 {
+  font-size:15px;
+  font-weight:570;
+  font-family: 'Song Myung', serif;
+}
+
+.text2 {
+  font-size:13px;
+  font-weight:300;
+  font-family: 'Nanum Myeongjo', serif;
+}

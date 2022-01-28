@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Jua&family=Song+Myung&family=Sunflower:wght@300&display=swap');
+h1 {
+  background-color: lightyellow;
+  font-family: 'Jua', sans-serif;
+}
+h1 span:nth-child(1) {
+  color : lightseagreen;
+}
+
+h1 span:nth-child(2) {
+  color : lightsalmon;
+}
+body {
+  text-align: center;
+}
+h5 {
+  padding: 10px;
+  border: 3px dotted lightseagreen;
+}
+h5 span:nth-child(1) {
+  font-family: 'Sunflower', sans-serif;
+}
+h5 span:nth-child(2) {
+  font-weight: 800;
+  font-size: 150%;
+  color: lightseagreen;
+  font-family: 'Do Hyeon', sans-serif;
+}
+h4 span {
+  background-color: lightyellow;
+  font-weight: 800;
+  font-family: 'Song Myung', serif;
+}
+img {
+  border-radius: 25px;
+}

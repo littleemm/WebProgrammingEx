@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item {
+  font-family: 'Source Code Pro', monospace;
+  font-size:20px;
+  padding:20px;
+  background-color: pink;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.item:nth-child(1) {
+  color:rgb(59, 59, 59);
+  background-color: pink;
+}
+.item:nth-child(2) {
+  background-color: rgb(161, 2, 2);
+}
+.item:nth-child(3) {
+  color:rgb(59, 59, 59);
+  background-color: rgb(250, 217, 108);
+}
+.item:nth-child(4) {
+  color:rgb(59, 59, 59);
+  background-color: rgb(255, 238, 238);
+}
+.item:nth-child(5) {
+  color:rgb(59, 59, 59);
+  background-color: rgb(210, 175, 238);
+}
